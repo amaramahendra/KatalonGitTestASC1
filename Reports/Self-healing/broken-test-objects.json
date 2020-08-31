@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/div_Select Location            Select Locat_ec7491",
+      "brokenLocator": "//div[@id\u003d\u0027location_dp_chosen\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Join For a Good Start\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/div_Select Location            Select Locat_ec7491_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/span_Logout",
+      "brokenLocator": "//header[@id\u003d\u0027wt-header\u0027]/div/div/div/div/div/div/nav/ul/li[16]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Packages\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/span_Logout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Accounts/Page_Dashboard  American Software Contracts/a_Continue",
+      "brokenLocator": "//main[@id\u003d\u0027wt-main\u0027]/section/div/div/div/div[2]/div/div[3]/form/fieldset[3]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Terms \u0026 Conditions\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Accounts/Page_Dashboard  American Software Contracts/a_Continue_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/label_Agree our terms and conditionsTerms  _93b612",
+      "brokenLocator": "//div[@id\u003d\u0027joinpopup\u0027]/div/div/div/div/div[2]/form/fieldset[3]/div/span/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[3]/div/span/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/label_Agree our terms and conditionsTerms  _93b612_position.png"
+    }
+  ]
+}

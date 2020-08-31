@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1_ASC(FireFox)" time="45.777" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 1_ASC(FireFox)" tests="1" failures="0" errors="0" time="45.777" timestamp="2020-08-30 21:39:54" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 1_ASC(FireFox)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\Katalon Studio\\American Software Contracts\\Reports\\20200830_213946\\Test Suite 1_ASC(FireFox)\\20200830_213946"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\Katalon Studio\\American Software Contracts\\Reports\\20200830_213946\\Test Suite 1_ASC(FireFox)\\20200830_213946\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Firefox 80.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="565abad7-c9d2-46f1-9c9e-33fa9f7a457b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Home Page/Reset Password and Validation" time="45.315" classname="Test Cases/Home Page/Reset Password and Validation" status="PASSED">
+         <system-out><![CDATA[2020-08-30 21:39:54 - [TEST_CASE][PASSED] - Test Cases/Home Page/Reset Password and Validation: Test Cases/Home Page/Reset Password and Validation
+
+2020-08-30 21:39:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-30 21:39:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-08-30 21:39:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-30 21:40:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-30 21:40:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-30 21:40:19 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-30 21:40:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-30 21:40:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-30 21:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-30 21:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-30 21:40:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-30 21:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-30 21:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-08-30 21:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-08-30 21:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-30 21:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-30 21:40:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address"), "Please add email address."): Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' are matched.
+
+2020-08-30 21:40:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' are matched.
+
+2020-08-30 21:40:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross' is clicked on
+
+2020-08-30 21:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross' is clicked on
+
+2020-08-30 21:40:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-30 21:40:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-30 21:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email"), "amaramahendra1989@gmail.com"): Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email'
+
+2020-08-30 21:40:32 - [MESSAGE][PASSED] - Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email'
+
+2020-08-30 21:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-30 21:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-30 21:40:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email"), "A link has been sent, please check your email."): Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email' are matched.
+
+2020-08-30 21:40:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email' are matched.
+
+2020-08-30 21:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1' is clicked on
+
+2020-08-30 21:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1' is clicked on
+
+2020-08-30 21:40:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-30 21:40:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-30 21:40:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-30 21:40:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-30 21:39:54 - [TEST_SUITE][PASSED] - Test Suite 1_ASC(FireFox): Test Cases/Home Page/Reset Password and Validation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

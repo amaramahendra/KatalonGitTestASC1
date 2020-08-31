@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/span_Logout",
+      "brokenLocator": "//header[@id\u003d\u0027wt-header\u0027]/div/div/div/div/div/div/nav/ul/li[16]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Packages\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200831_195903/Test Suite 1_ASC/20200831_195903/Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/span_Logout_neighbor.png"
+    }
+  ]
+}

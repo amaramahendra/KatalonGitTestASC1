@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1_ASC" time="133.411" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite 1_ASC" tests="3" failures="0" errors="0" time="133.411" timestamp="2020-08-31 20:25:57" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 1_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\KatalonGitTestASC1\\Reports\\20200831_202549\\Test Suite 1_ASC\\20200831_202549"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\KatalonGitTestASC1\\Reports\\20200831_202549\\Test Suite 1_ASC\\20200831_202549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="448d21e46e2bab76f6b94808c86ef1f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Home Page/Sign In" time="61.016" classname="Test Cases/Home Page/Sign In" status="PASSED">
+         <system-out><![CDATA[2020-08-31 20:25:58 - [TEST_CASE][PASSED] - Test Cases/Home Page/Sign In: Test Cases/Home Page/Sign In
+
+2020-08-31 20:25:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 20:25:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 20:25:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 20:26:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 20:26:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-31 20:26:25 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-31 20:26:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 20:26:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 20:26:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-31 20:26:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-31 20:26:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-31 20:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-31 20:26:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-08-31 20:26:34 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-08-31 20:26:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-08-31 20:26:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-08-31 20:26:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-08-31 20:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-08-31 20:26:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-08-31 20:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-08-31 20:26:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-08-31 20:26:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-08-31 20:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Logout")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' is clicked on
+
+2020-08-31 20:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' is clicked on
+
+2020-08-31 20:26:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-31 20:26:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-31 20:26:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 20:26:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Sign In Validation" time="31.599" classname="Test Cases/Home Page/Sign In Validation" status="PASSED">
+         <system-out><![CDATA[2020-08-31 20:26:59 - [TEST_CASE][PASSED] - Test Cases/Home Page/Sign In Validation: Test Cases/Home Page/Sign In Validation
+
+2020-08-31 20:26:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 20:26:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 20:26:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 20:27:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 20:27:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-31 20:27:08 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-31 20:27:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 20:27:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 20:27:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-31 20:27:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-31 20:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-31 20:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-31 20:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-08-31 20:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-08-31 20:27:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sign In_ASC/Page_American Software/p_Username should not be empty"), "Username should not be empty."): Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Username should not be empty' are matched.
+
+2020-08-31 20:27:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Username should not be empty' are matched.
+
+2020-08-31 20:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Sign In_ASC/Page_American Software/i__lnr lnr-cross")): Object: 'Object Repository/Sign In_ASC/Page_American Software/i__lnr lnr-cross' is clicked on
+
+2020-08-31 20:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software/i__lnr lnr-cross' is clicked on
+
+2020-08-31 20:27:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-31 20:27:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-31 20:27:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-08-31 20:27:23 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-08-31 20:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-08-31 20:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-08-31 20:27:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sign In_ASC/Page_American Software/p_Password should not be empty"), "Password should not be empty."): Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Password should not be empty' are matched.
+
+2020-08-31 20:27:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Password should not be empty' are matched.
+
+2020-08-31 20:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_American/i__lnr lnr-cross")): Object: 'Object Repository/Page_American/i__lnr lnr-cross' is clicked on
+
+2020-08-31 20:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American/i__lnr lnr-cross' is clicked on
+
+2020-08-31 20:27:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-31 20:27:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-31 20:27:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 20:27:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Reset Password and Validation" time="40.272" classname="Test Cases/Home Page/Reset Password and Validation" status="PASSED">
+         <system-out><![CDATA[2020-08-31 20:27:30 - [TEST_CASE][PASSED] - Test Cases/Home Page/Reset Password and Validation: Test Cases/Home Page/Reset Password and Validation
+
+2020-08-31 20:27:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-31 20:27:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-31 20:27:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-31 20:27:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-31 20:27:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-31 20:27:46 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-08-31 20:27:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-08-31 20:27:47 - [MESSAGE][PASSED] - Current window maximized
+
+2020-08-31 20:27:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-31 20:27:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-31 20:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-31 20:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-08-31 20:27:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-31 20:27:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-31 20:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-08-31 20:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-08-31 20:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-31 20:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-31 20:27:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address"), "Please add email address."): Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' are matched.
+
+2020-08-31 20:27:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' are matched.
+
+2020-08-31 20:27:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross' is clicked on
+
+2020-08-31 20:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross' is clicked on
+
+2020-08-31 20:27:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-08-31 20:28:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-31 20:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email"), "amaramahendra1989@gmail.com"): Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email'
+
+2020-08-31 20:28:02 - [MESSAGE][PASSED] - Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email'
+
+2020-08-31 20:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-31 20:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-08-31 20:28:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email"), "A link has been sent, please check your email."): Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email' are matched.
+
+2020-08-31 20:28:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email' are matched.
+
+2020-08-31 20:28:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1' is clicked on
+
+2020-08-31 20:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1' is clicked on
+
+2020-08-31 20:28:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-08-31 20:28:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-08-31 20:28:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-31 20:28:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-31 20:25:57 - [TEST_SUITE][PASSED] - Test Suite 1_ASC: Test Cases/Home Page/Reset Password and Validation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

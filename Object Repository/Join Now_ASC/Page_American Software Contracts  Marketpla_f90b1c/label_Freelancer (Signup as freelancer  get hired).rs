@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Freelancer (Signup as freelancer  get hired)</name>
+   <tag></tag>
+   <elementGuidId>207d5d07-027e-4695-9323-0d2ddfe6dc1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.wt-accordiontitle.wt-ragister-option > span.wt-radio > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='joinpopup']/div/div/div/div/div[2]/form/fieldset[2]/ul/li/div/span/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>wt-freelancer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Freelancer (Signup as freelancer &amp; get hired)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;joinpopup&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;wt-modalcontentvtwo modal-content&quot;]/div[@class=&quot;wt-registration-content-model&quot;]/div[@class=&quot;wt-registerformmain&quot;]/div[@class=&quot;wt-joinforms&quot;]/form[@class=&quot;wt-formtheme wt-formregister wt-formregister-step-two&quot;]/fieldset[@class=&quot;wt-formregisterstart&quot;]/ul[@class=&quot;wt-accordionhold wt-formaccordionhold accordion&quot;]/li[1]/div[@class=&quot;wt-accordiontitle wt-ragister-option&quot;]/span[@class=&quot;wt-radio&quot;]/label[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='joinpopup']/div/div/div/div/div[2]/form/fieldset[2]/ul/li/div/span/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start as :'])[1]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[10]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Freelancer']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/span/label</value>
+   </webElementXpaths>
+</WebElementEntity>
