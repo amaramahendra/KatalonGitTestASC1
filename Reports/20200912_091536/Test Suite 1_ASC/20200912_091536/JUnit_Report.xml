@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1_ASC" time="316.332" tests="3" failures="1" errors="0">
+   <testsuite name="Test Suite 1_ASC" tests="3" failures="1" errors="0" time="316.332" timestamp="2020-09-12 09:15:45" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 1_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200912_091536\\Test Suite 1_ASC\\20200912_091536"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200912_091536\\Test Suite 1_ASC\\20200912_091536\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200912_091536\\Test Suite 1_ASC\\20200912_091536\\1599882643759.png, C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200912_091536\\Test Suite 1_ASC\\20200912_091536\\1599882644310.png"/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="40073cb6f137641d3a1215a2e00c7954"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Home Page/Sign In" time="146.563" classname="Test Cases/Home Page/Sign In" status="PASSED">
+         <system-out><![CDATA[2020-09-12 09:15:45 - [TEST_CASE][PASSED] - Test Cases/Home Page/Sign In: Test Cases/Home Page/Sign In
+
+2020-09-12 09:15:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-12 09:15:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-12 09:15:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-12 09:15:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-12 09:15:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-12 09:16:19 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-12 09:16:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-12 09:16:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-12 09:16:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-12 09:16:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-12 09:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-12 09:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-12 09:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-12 09:16:28 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-12 09:16:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-12 09:16:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-12 09:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-12 09:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-12 09:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-12 09:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-12 09:16:53 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-12 09:16:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-12 09:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Logout")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' is clicked on
+
+2020-09-12 09:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' is clicked on
+
+2020-09-12 09:17:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-12 09:17:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-12 09:17:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-12 09:18:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Sign In Validation" time="78.994" classname="Test Cases/Home Page/Sign In Validation" status="PASSED">
+         <system-out><![CDATA[2020-09-12 09:18:12 - [TEST_CASE][PASSED] - Test Cases/Home Page/Sign In Validation: Test Cases/Home Page/Sign In Validation
+
+2020-09-12 09:18:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-12 09:18:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-12 09:18:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-12 09:18:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-12 09:18:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-12 09:19:03 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-12 09:19:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-12 09:19:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-12 09:19:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-12 09:19:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-12 09:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-12 09:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-12 09:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-12 09:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-12 09:19:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sign In_ASC/Page_American Software/p_Username should not be empty"), "Username should not be empty."): Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Username should not be empty' are matched.
+
+2020-09-12 09:19:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Username should not be empty' are matched.
+
+2020-09-12 09:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Sign In_ASC/Page_American Software/i__lnr lnr-cross")): Object: 'Object Repository/Sign In_ASC/Page_American Software/i__lnr lnr-cross' is clicked on
+
+2020-09-12 09:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software/i__lnr lnr-cross' is clicked on
+
+2020-09-12 09:19:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-12 09:19:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-12 09:19:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-12 09:19:19 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-12 09:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-12 09:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-12 09:19:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sign In_ASC/Page_American Software/p_Password should not be empty"), "Password should not be empty."): Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Password should not be empty' are matched.
+
+2020-09-12 09:19:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Password should not be empty' are matched.
+
+2020-09-12 09:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_American/i__lnr lnr-cross")): Object: 'Object Repository/Page_American/i__lnr lnr-cross' is clicked on
+
+2020-09-12 09:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American/i__lnr lnr-cross' is clicked on
+
+2020-09-12 09:19:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-12 09:19:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-12 09:19:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-12 09:19:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Reset Password and Validation" time="73.483" classname="Test Cases/Home Page/Reset Password and Validation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home Page/Reset Password and Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-12 09:19:31 - [TEST_CASE][FAILED] - Test Cases/Home Page/Reset Password and Validation: Test Cases/Home Page/Reset Password and Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-12 09:19:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-12 09:19:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-12 09:19:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-12 09:19:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-12 09:19:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-12 09:19:51 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-12 09:19:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-12 09:19:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-12 09:19:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-12 09:19:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-12 09:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-12 09:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-12 09:20:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-09-12 09:20:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-09-12 09:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-09-12 09:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-09-12 09:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-09-12 09:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-09-12 09:20:05 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address"), "Please add email address."): Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-09-12 09:20:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='s365971469']/div/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-12 09:20:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address'. Try using Self-healing.
+
+2020-09-12 09:20:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='s365971469']/div/p'.
+
+2020-09-12 09:20:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '"', 's365971469', '"', ')/div[@class=', '"', 'jf-description', '"', ']/p[1]')])[1]/following::p[1]'.
+
+2020-09-12 09:20:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='LinkedIn'])[2]/following::p[1]'.
+
+2020-09-12 09:20:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Please add email address.']/parent::*'.
+
+2020-09-12 09:20:41 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[9]/div/div/p'.
+
+2020-09-12 09:20:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Please add email address.' or . = 'Please add email address.')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-12 09:20:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.jf-description > p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-12 09:20:44 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200912_091536\\Test Suite 1_ASC\\20200912_091536\\1599882643759.png]]
+
+2020-09-12 09:20:44 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200912_091536\\Test Suite 1_ASC\\20200912_091536\\1599882644310.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-12 09:19:31 - [TEST_CASE][FAILED] - Test Cases/Home Page/Reset Password and Validation: Test Cases/Home Page/Reset Password and Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-12 09:15:45 - [TEST_SUITE][FAILED] - Test Suite 1_ASC: Test Cases/Home Page/Reset Password and Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-12 09:15:45 - [TEST_SUITE][FAILED] - Test Suite 1_ASC: Test Cases/Home Page/Reset Password and Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3689)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at Reset Password and Validation.run(Reset Password and Validation:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599882336739.run(TempTestSuite1599882336739.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' located by '//div[@id='s365971469']/div/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

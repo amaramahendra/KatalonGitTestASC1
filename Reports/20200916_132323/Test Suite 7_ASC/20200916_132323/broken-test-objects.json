@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[2]\n//button[@class\u003d\u0027wt-loginbtn\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027submit\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200916_132323/Test Suite 7_ASC/20200916_132323/Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level",
+      "brokenLocator": "//main[@id\u003d\u0027wt-main\u0027]/section/div/div/div/form/div/div[2]/div/div[2]/fieldset/div[2]/span/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select project level\u0027])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200916_132323/Test Suite 7_ASC/20200916_132323/Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level_neighbor.png"
+    }
+  ]
+}

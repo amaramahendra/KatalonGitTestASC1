@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Post a Job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1481405a-948b-40a4-a13d-b303604bb4f0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>882e9f1d-73bd-48e5-bd62-157cdfd3b608</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5dccbb1-2aa1-4eeb-baba-be20d6a64486</id>
+      <masked>false</masked>
+      <name>Min</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ac0646d-214c-4f95-b8fa-58b1182162ca</id>
+      <masked>false</masked>
+      <name>Max</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c10aff67-4e41-4fbd-a3f9-ff2cad25baab</id>
+      <masked>false</masked>
+      <name>Add</name>
+   </variable>
+</TestCaseEntity>

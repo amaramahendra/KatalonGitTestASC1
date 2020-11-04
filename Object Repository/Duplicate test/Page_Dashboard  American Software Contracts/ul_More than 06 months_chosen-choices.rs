@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_More than 06 months_chosen-choices</name>
+   <tag></tag>
+   <elementGuidId>afc2d283-a350-475a-bf78-8f2b26fab208</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.chosen-choices</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='wt-main']/section/div/div/div/form/div/div[2]/div/div[2]/fieldset/div[4]/span/div/ul</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chosen-choices</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wt-main&quot;)/section[@class=&quot;wt-haslayout wt-dbsectionspace&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-9 float-left&quot;]/div[@class=&quot;wt-haslayout wt-post-job-wrap&quot;]/form[@class=&quot;post-job-form wt-haslayout&quot;]/div[@class=&quot;wt-dashboardbox&quot;]/div[@class=&quot;wt-dashboardboxcontent&quot;]/div[@class=&quot;wt-jobdescription wt-tabsinfo&quot;]/div[@class=&quot;wt-formtheme wt-userform wt-userformvtwo&quot;]/fieldset[1]/div[@class=&quot;form-group form-group-half wt-formwithlabel&quot;]/span[@class=&quot;wt-select toolip-wrapo&quot;]/div[@class=&quot;chosen-container chosen-container-multi chosen-with-drop chosen-container-active&quot;]/ul[@class=&quot;chosen-choices&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='wt-main']/section/div/div/div/form/div/div[2]/div/div[2]/fieldset/div[4]/span/div/ul</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More than 06 months'])[2]/following::ul[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Less than a week'])[2]/following::ul[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select freelancer type'])[2]/preceding::ul[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agency Freelancers'])[2]/preceding::ul[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/ul</value>
+   </webElementXpaths>
+</WebElementEntity>

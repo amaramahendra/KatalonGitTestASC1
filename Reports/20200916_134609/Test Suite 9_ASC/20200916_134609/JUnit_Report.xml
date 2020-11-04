@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 9_ASC" time="421.458" tests="2" failures="1" errors="0">
+   <testsuite name="Test Suite 9_ASC" tests="2" failures="1" errors="0" time="421.458" timestamp="2020-09-16 13:46:18" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 9_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_134609\\Test Suite 9_ASC\\20200916_134609"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_134609\\Test Suite 9_ASC\\20200916_134609\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_134609\\Test Suite 9_ASC\\20200916_134609\\1600244587049.png"/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="41bef6bc84ed2b2814f37bf33c9213e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Proposal/Freelancer - send offer" time="337.885" classname="Test Cases/Proposal/Freelancer - send offer" status="PASSED">
+         <system-out><![CDATA[2020-09-16 13:46:19 - [TEST_CASE][PASSED] - Test Cases/Proposal/Freelancer - send offer: Test Cases/Proposal/Freelancer - send offer
+
+2020-09-16 13:46:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:46:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:46:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:46:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:46:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:46:55 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:46:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:50:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:50:28 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:50:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:50:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "amaramahendra1989@gmail.com"): Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:50:33 - [MESSAGE][PASSED] - Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:50:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:50:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:50:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:50:35 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:50:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Dashboard  American Software Contracts/a_Search Employers")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/a_Search Employers' is clicked on
+
+2020-09-16 13:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/a_Search Employers' is clicked on
+
+2020-09-16 13:50:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:50:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Search Employers  American Software Contracts/a_Mahendra A")): Object: 'Object Repository/Send offer/Page_Search Employers  American Software Contracts/a_Mahendra A' is clicked on
+
+2020-09-16 13:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Search Employers  American Software Contracts/a_Mahendra A' is clicked on
+
+2020-09-16 13:50:59 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Mahendra A  American Software Contracts/a_View Job_1")): Object: 'Object Repository/Send offer/Page_Mahendra A  American Software Contracts/a_View Job_1' is clicked on
+
+2020-09-16 13:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Mahendra A  American Software Contracts/a_View Job_1' is clicked on
+
+2020-09-16 13:51:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal")): Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal' is clicked on
+
+2020-09-16 13:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal' is clicked on
+
+2020-09-16 13:51:15 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/input__proposed_amount"), "15"): Text '15' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/input__proposed_amount'
+
+2020-09-16 13:51:20 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/input__proposed_amount'
+
+2020-09-16 13:51:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/select_Select time period01 to 03 months03 _f937bf"), "weekly", true): All options with value 'weekly' are selected in object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/select_Select time period01 to 03 months03 _f937bf'  using regular expression
+
+2020-09-16 13:51:21 - [MESSAGE][PASSED] - All options with value 'weekly' are selected in object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/select_Select time period01 to 03 months03 _f937bf'  using regular expression
+
+2020-09-16 13:51:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/textarea_American Software Contracts_propos_f915c9"), "Temporary work"): Text 'Temporary work' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/textarea_American Software Contracts_propos_f915c9'
+
+2020-09-16 13:51:22 - [MESSAGE][PASSED] - Text 'Temporary work' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/textarea_American Software Contracts_propos_f915c9'
+
+2020-09-16 13:51:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/a_Send Now")): Object: 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/a_Send Now' is clicked on
+
+2020-09-16 13:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/a_Send Now' is clicked on
+
+2020-09-16 13:51:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Send offer/Page_Dashboard  American Software Contracts/h3_Test T")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-16 13:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-16 13:51:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:51:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Test  American Software Contracts/span_Dashboard")): Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:51:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-16 13:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-16 13:51:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Dashboard  American Software Contracts/span_Logout")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:51:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:51:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:51:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-16 13:51:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Proposal/Proposal for a job" time="70.352" classname="Test Cases/Proposal/Proposal for a job" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Proposal/Proposal for a job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-16 13:51:57 - [TEST_CASE][FAILED] - Test Cases/Proposal/Proposal for a job: Test Cases/Proposal/Proposal for a job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-16 13:51:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:51:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:51:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:51:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:51:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:52:16 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:52:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:52:17 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:52:17 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:52:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:52:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:52:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:52:24 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:52:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:52:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:52:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:52:25 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:52:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:52:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Search Freelancers")): Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Search Freelancers' is clicked on
+
+2020-09-16 13:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Search Freelancers' is clicked on
+
+2020-09-16 13:52:45 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:52:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Search Freelancers  American Software _f8314d/a_Mahi A")): Object: 'Object Repository/Proposal for a job/Page_Search Freelancers  American Software _f8314d/a_Mahi A' is clicked on
+
+2020-09-16 13:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Search Freelancers  American Software _f8314d/a_Mahi A' is clicked on
+
+2020-09-16 13:52:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:53:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send Offer")): Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send Offer' is clicked on
+
+2020-09-16 13:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send Offer' is clicked on
+
+2020-09-16 13:53:03 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86"), "1613", true): Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Script1600013572880.run(Script1600013572880.groovy:49)
+	... 13 more
+)
+
+2020-09-16 13:53:07 - [MESSAGE][FAILED] - Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Script1600013572880.run(Script1600013572880.groovy:49)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_134609\\Test Suite 9_ASC\\20200916_134609\\1600244587049.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-16 13:51:57 - [TEST_CASE][FAILED] - Test Cases/Proposal/Proposal for a job: Test Cases/Proposal/Proposal for a job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-16 13:46:18 - [TEST_SUITE][FAILED] - Test Suite 9_ASC: Test Cases/Proposal/Proposal for a job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-16 13:46:18 - [TEST_SUITE][FAILED] - Test Suite 9_ASC: Test Cases/Proposal/Proposal for a job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '1613' of object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1164)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$5.call(Unknown Source)
+	at Proposal for a job.run(Proposal for a job:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600244169671.run(TempTestSuite1600244169671.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable: Element is not currently visible and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 41bef6bc84ed2b2814f37bf33c9213e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:311)
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:293)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValueByRegularExpression(WebUiCommonHelper.java:283)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:262)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

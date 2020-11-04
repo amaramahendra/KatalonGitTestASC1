@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard  American Software Contracts/a_Buy Now",
+      "brokenLocator": "//main[@id\u003d\u0027wt-main\u0027]/section/div/div/div/form/div/div[2]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Job description\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200914_163545/Test Suite 2_ASC/20200914_163545/Object Repository/Page_Dashboard  American Software Contracts/a_Buy Now_neighbor.png"
+    }
+  ]
+}

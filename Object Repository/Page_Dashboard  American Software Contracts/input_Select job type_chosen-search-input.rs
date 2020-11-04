@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Select job type_chosen-search-input</name>
+   <tag></tag>
+   <elementGuidId>4979d352-024b-4d80-909f-f4ba82b62599</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.chosen-container.chosen-container-single.chosen-with-drop.chosen-container-active > div.chosen-drop > div.chosen-search > input.chosen-search-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chosen-search-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wt-main&quot;)/section[@class=&quot;wt-haslayout wt-dbsectionspace&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-9 float-left&quot;]/div[@class=&quot;wt-haslayout wt-post-job-wrap&quot;]/form[@class=&quot;post-job-form wt-haslayout&quot;]/div[@class=&quot;wt-dashboardbox&quot;]/div[@class=&quot;wt-dashboardboxcontent&quot;]/div[@class=&quot;wt-category-holder wt-tabsinfo&quot;]/div[@class=&quot;wt-formtheme wt-userform wt-userformvtwo&quot;]/fieldset[1]/div[@class=&quot;form-group form-group-half wt-formwithlabel&quot;]/span[@class=&quot;wt-select&quot;]/div[@class=&quot;chosen-container chosen-container-single chosen-with-drop chosen-container-active&quot;]/div[@class=&quot;chosen-drop&quot;]/div[@class=&quot;chosen-search&quot;]/input[@class=&quot;chosen-search-input&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='wt-main']/section/div/div/div/form/div/div[2]/div[2]/div[2]/fieldset/div/span/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/fieldset/div/span/div/div/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

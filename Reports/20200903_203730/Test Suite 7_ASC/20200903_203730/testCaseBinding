@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Data Driven Testing/Post a Job - Iteration 1","testCaseId":"Test Cases/Data Driven Testing/Post a Job","bindedValues":{"Add":"\u0027United  Kingdom\u0027","Min":"\u002730\u0027","Max":"\u002760\u0027","Title":"\u0027Developer\u0027"}}
+{"testCaseName":"Test Cases/Data Driven Testing/Post a Job - Iteration 2","testCaseId":"Test Cases/Data Driven Testing/Post a Job","bindedValues":{"Add":"\u0027USA\u0027","Min":"\u002740\u0027","Max":"\u002770\u0027","Title":"\u0027Architect\u0027"}}
+{"testCaseName":"Test Cases/Data Driven Testing/Post a Job - Iteration 3","testCaseId":"Test Cases/Data Driven Testing/Post a Job","bindedValues":{"Add":"\u0027Germany\u0027","Min":"\u002750\u0027","Max":"\u002780\u0027","Title":"\u0027Business Analyst\u0027"}}

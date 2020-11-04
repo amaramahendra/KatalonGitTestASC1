@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://www.wp.americansoftwarecontracts.com/')
 WebUI.click(findTestObject('Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Join Now'))
 
 WebUI.setText(findTestObject('Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Join For a Good Start_first_name'), 
-    'Mahi')
+    'Mahendra')
 
 WebUI.setText(findTestObject('Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Join For a Good Start_last_name'), 
     'Amar')
@@ -32,7 +32,7 @@ WebUI.setText(findTestObject('Object Repository/Join Now_ASC/Page_American Softw
     'Amaraaa')
 
 WebUI.setText(findTestObject('Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Join For a Good Start_email'), 
-    'amar1960@gmail.com')
+    'mahendram15@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Start Now'))
 

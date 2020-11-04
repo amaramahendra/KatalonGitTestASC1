@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1_ASC" time="143.41" tests="3" failures="1" errors="0">
+   <testsuite name="Test Suite 1_ASC" tests="3" failures="1" errors="0" time="143.41" timestamp="2020-10-14 22:54:37" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 1_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20201014_225427\\Test Suite 1_ASC\\20201014_225427"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20201014_225427\\Test Suite 1_ASC\\20201014_225427\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20201014_225427\\Test Suite 1_ASC\\20201014_225427\\1602696351435.png"/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="6e1f75f9c60954d45a26ad5ecbe201a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Home Page/Sign In" time="73.094" classname="Test Cases/Home Page/Sign In" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home Page/Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-14 22:54:38 - [TEST_CASE][FAILED] - Test Cases/Home Page/Sign In: Test Cases/Home Page/Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-14 22:54:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 22:54:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 22:54:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 22:54:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 22:54:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-10-14 22:54:51 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-10-14 22:54:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-14 22:54:52 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 22:54:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-10-14 22:55:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-10-14 22:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-10-14 22:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-10-14 22:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-10-14 22:55:04 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-10-14 22:55:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-10-14 22:55:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-10-14 22:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-10-14 22:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-10-14 22:55:05 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-10-14 22:55:11 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-10-14 22:55:11 - [TEST_STEP][PASSED] - click(findTestObject("Employer/Page_Checkout  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Employer/Page_Checkout  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-10-14 22:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Employer/Page_Checkout  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-10-14 22:55:16 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-14 22:55:20 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-14 22:55:20 - [TEST_STEP][FAILED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Logout")): Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1598727746324.run(Script1598727746324.groovy:43)
+	... 13 more
+)
+
+2020-10-14 22:55:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-14 22:55:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1598727746324.run(Script1598727746324.groovy:43)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20201014_225427\\Test Suite 1_ASC\\20201014_225427\\1602696351435.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-14 22:54:38 - [TEST_CASE][FAILED] - Test Cases/Home Page/Sign In: Test Cases/Home Page/Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Sign In Validation" time="33.524" classname="Test Cases/Home Page/Sign In Validation" status="PASSED">
+         <system-out><![CDATA[2020-10-14 22:55:51 - [TEST_CASE][PASSED] - Test Cases/Home Page/Sign In Validation: Test Cases/Home Page/Sign In Validation
+
+2020-10-14 22:55:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 22:55:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-14 22:55:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 22:55:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 22:55:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 22:55:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-10-14 22:56:04 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-10-14 22:56:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-14 22:56:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 22:56:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-14 22:56:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-14 22:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-10-14 22:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-10-14 22:56:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-10-14 22:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-10-14 22:56:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sign In_ASC/Page_American Software/p_Username should not be empty"), "Username should not be empty."): Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Username should not be empty' are matched.
+
+2020-10-14 22:56:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Username should not be empty' are matched.
+
+2020-10-14 22:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Sign In_ASC/Page_American Software/i__lnr lnr-cross")): Object: 'Object Repository/Sign In_ASC/Page_American Software/i__lnr lnr-cross' is clicked on
+
+2020-10-14 22:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign In_ASC/Page_American Software/i__lnr lnr-cross' is clicked on
+
+2020-10-14 22:56:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-14 22:56:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-14 22:56:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-10-14 22:56:18 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-10-14 22:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-10-14 22:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-10-14 22:56:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Sign In_ASC/Page_American Software/p_Password should not be empty"), "Password should not be empty."): Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Password should not be empty' are matched.
+
+2020-10-14 22:56:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sign In_ASC/Page_American Software/p_Password should not be empty' are matched.
+
+2020-10-14 22:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_American/i__lnr lnr-cross")): Object: 'Object Repository/Page_American/i__lnr lnr-cross' is clicked on
+
+2020-10-14 22:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American/i__lnr lnr-cross' is clicked on
+
+2020-10-14 22:56:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-14 22:56:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-14 22:56:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 22:56:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/Reset Password and Validation" time="35.504" classname="Test Cases/Home Page/Reset Password and Validation" status="PASSED">
+         <system-out><![CDATA[2020-10-14 22:56:25 - [TEST_CASE][PASSED] - Test Cases/Home Page/Reset Password and Validation: Test Cases/Home Page/Reset Password and Validation
+
+2020-10-14 22:56:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 22:56:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 22:56:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 22:56:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 22:56:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-10-14 22:56:34 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-10-14 22:56:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-14 22:56:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 22:56:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-14 22:56:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-14 22:56:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-10-14 22:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-10-14 22:56:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-14 22:56:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-14 22:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-10-14 22:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Reset Password' is clicked on
+
+2020-10-14 22:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-10-14 22:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-10-14 22:56:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address"), "Please add email address."): Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' are matched.
+
+2020-10-14 22:56:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_Please add email address' are matched.
+
+2020-10-14 22:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross' is clicked on
+
+2020-10-14 22:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross' is clicked on
+
+2020-10-14 22:56:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-10-14 22:56:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-14 22:56:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email"), "amaramahendra1989@gmail.com"): Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email'
+
+2020-10-14 22:56:52 - [MESSAGE][PASSED] - Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_LinkedIn_email'
+
+2020-10-14 22:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-10-14 22:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Get Password' is clicked on
+
+2020-10-14 22:56:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email"), "A link has been sent, please check your email."): Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email' are matched.
+
+2020-10-14 22:56:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/p_A link has been sent please check your email' are matched.
+
+2020-10-14 22:56:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1' is clicked on
+
+2020-10-14 22:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/i_LinkedIn_lnr lnr-cross_1' is clicked on
+
+2020-10-14 22:56:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-14 22:57:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-14 22:57:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 22:57:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-14 22:54:37 - [TEST_SUITE][FAILED] - Test Suite 1_ASC: Test Cases/Home Page/Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-10-14 22:54:37 - [TEST_SUITE][FAILED] - Test Suite 1_ASC: Test Cases/Home Page/Sign In FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Sign In.run(Sign In:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602696267634.run(TempTestSuite1602696267634.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Dashboard  American Software Contracts/a_Logout' located by '//header[@id='wt-header']/div/div/div/div/div/div/nav/ul/li[15]/a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

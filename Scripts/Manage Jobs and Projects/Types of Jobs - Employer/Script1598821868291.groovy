@@ -39,7 +39,9 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard  American Software 
 
 WebUI.delay(8)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard  American Software Contracts/a_Buy Now'))
+WebUI.click(findTestObject('All Sections/Page_American Software Contracts  Marketpla_f90b1c/h3_Mahendra A'))
+
+WebUI.click(findTestObject('Employer/Page_Dashboard  American Software Contracts/a_Packages'))
 
 WebUI.delay(3)
 
@@ -57,7 +59,9 @@ WebUI.click(findTestObject('Object Repository/Page_Checkout  American Software C
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard  American Software Contracts/a_Buy Now'))
+WebUI.click(findTestObject('All Sections/Page_American Software Contracts  Marketpla_f90b1c/h3_Mahendra A'))
+
+WebUI.click(findTestObject('Employer/Page_Dashboard  American Software Contracts/a_Packages'))
 
 WebUI.delay(3)
 
@@ -81,7 +85,9 @@ WebUI.click(findTestObject('Page_Dashboard  American Software Contracts/a_Post a
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Dashboard  American Software Contracts/a_Buy Now'))
+WebUI.click(findTestObject('All Sections/Page_American Software Contracts  Marketpla_f90b1c/h3_Mahendra A'))
+
+WebUI.click(findTestObject('Employer/Page_Dashboard  American Software Contracts/a_Packages'))
 
 WebUI.delay(3)
 

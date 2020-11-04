@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 7_ASC" time="303.102" tests="3" failures="3" errors="0">
+   <testsuite name="Test Suite 7_ASC" tests="3" failures="3" errors="0" time="303.102" timestamp="2020-09-16 13:23:33" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 7_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\1600242948275.png, C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\1600243031359.png, C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\1600243114697.png"/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="ba53db98a5cfb06f4271223bebffe8ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven Testing/Post a Job" time="134.944" classname="Test Cases/Data Driven Testing/Post a Job" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-16 13:23:33 - [TEST_CASE][FAILED] - Test Cases/Data Driven Testing/Post a Job: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-16 13:23:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:23:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:23:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:23:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:23:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:23:44 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:23:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:23:45 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:23:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:23:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:23:50 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:23:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:23:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:24:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='submit'])[2]
+//button[@class='wt-loginbtn']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-16 13:24:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login'. Try using Self-healing.
+
+2020-09-16 13:24:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' was broken. Propose an alternative one: '(//button[@type='submit'])[2]'.
+
+2020-09-16 13:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:24:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:24:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  American Software Contracts/span_Manage Jobs")): Object: 'Object Repository/Page_Checkout  American Software Contracts/span_Manage Jobs' is clicked on
+
+2020-09-16 13:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  American Software Contracts/span_Manage Jobs' is clicked on
+
+2020-09-16 13:24:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Post a job")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Post a job' is clicked on
+
+2020-09-16 13:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Post a job' is clicked on
+
+2020-09-16 13:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle"), Title): Text 'Developer' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle'
+
+2020-09-16 13:24:48 - [MESSAGE][PASSED] - Text 'Developer' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle'
+
+2020-09-16 13:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select project level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select project level' is clicked on
+
+2020-09-16 13:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select project level' is clicked on
+
+2020-09-16 13:24:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' is clicked on
+
+2020-09-16 13:25:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='wt-main']/section/div/div/div/form/div/div[2]/div/div[2]/fieldset/div[2]/span/div/div/ul/li[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-16 13:25:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level'. Try using Self-healing.
+
+2020-09-16 13:25:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//main[@id='wt-main']/section/div/div/div/form/div/div[2]/div/div[2]/fieldset/div[2]/span/div/div/ul/li[2]'.
+
+2020-09-16 13:25:26 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Select project level'])[2]/following::li[1]'.
+
+2020-09-16 13:25:27 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Mahi/git/KatalonGitTestASC1/Reports/Self-healing/Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level_neighbor.png
+
+2020-09-16 13:25:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Select project level'])[2]/following::li[1]'.
+
+2020-09-16 13:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' is clicked on
+
+2020-09-16 13:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration' is clicked on
+
+2020-09-16 13:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration' is clicked on
+
+2020-09-16 13:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months' is clicked on
+
+2020-09-16 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months' is clicked on
+
+2020-09-16 13:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340' is clicked on
+
+2020-09-16 13:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340' is clicked on
+
+2020-09-16 13:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers' is clicked on
+
+2020-09-16 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers' is clicked on
+
+2020-09-16 13:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select english level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select english level' is clicked on
+
+2020-09-16 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select english level' is clicked on
+
+2020-09-16 13:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Basic")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic' is clicked on
+
+2020-09-16 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic' is clicked on
+
+2020-09-16 13:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Project location type")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Project location type' is clicked on
+
+2020-09-16 13:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Project location type' is clicked on
+
+2020-09-16 13:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Onsite")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Onsite' is clicked on
+
+2020-09-16 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Onsite' is clicked on
+
+2020-09-16 13:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default' is clicked on
+
+2020-09-16 13:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default' is clicked on
+
+2020-09-16 13:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred' is clicked on
+
+2020-09-16 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred' is clicked on
+
+2020-09-16 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date' is clicked on
+
+2020-09-16 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date' is clicked on
+
+2020-09-16 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_11")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_11' is clicked on
+
+2020-09-16 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_11' is clicked on
+
+2020-09-16 13:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline' is clicked on
+
+2020-09-16 13:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline' is clicked on
+
+2020-09-16 13:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_18")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_18' is clicked on
+
+2020-09-16 13:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_18' is clicked on
+
+2020-09-16 13:25:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:25:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:25:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project")): NOT_RUN: click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project"))
+
+2020-09-16 13:25:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project"))
+
+2020-09-16 13:25:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project")): NOT_RUN: click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project"))
+
+2020-09-16 13:25:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project"))
+
+2020-09-16 13:25:38 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project")): NOT_RUN: click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project"))
+
+2020-09-16 13:25:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project"))
+
+2020-09-16 13:25:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost"), Min): Text '30' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost'
+
+2020-09-16 13:25:39 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost'
+
+2020-09-16 13:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price"), Max): Text '60' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price'
+
+2020-09-16 13:25:40 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price'
+
+2020-09-16 13:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3' is clicked on
+
+2020-09-16 13:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3' is clicked on
+
+2020-09-16 13:25:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Business")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Business' is clicked on
+
+2020-09-16 13:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Business' is clicked on
+
+2020-09-16 13:25:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices' is clicked on
+
+2020-09-16 13:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices' is clicked on
+
+2020-09-16 13:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Afar")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Afar' is clicked on
+
+2020-09-16 13:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Afar' is clicked on
+
+2020-09-16 13:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/p")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/p' is clicked on
+
+2020-09-16 13:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/p' is clicked on
+
+2020-09-16 13:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/body_Test Project"), "<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>"): Text '<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/body_Test Project'
+
+2020-09-16 13:25:44 - [MESSAGE][PASSED] - Text '<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/body_Test Project'
+
+2020-09-16 13:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Android/Page_Dashboard  American Software Contracts/a_Android")): Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/a_Android' is clicked on
+
+2020-09-16 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/a_Android' is clicked on
+
+2020-09-16 13:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Android/Page_Dashboard  American Software Contracts/span_Android")): Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/span_Android' is clicked on
+
+2020-09-16 13:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/span_Android' is clicked on
+
+2020-09-16 13:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Android")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Android' is clicked on
+
+2020-09-16 13:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Android' is clicked on
+
+2020-09-16 13:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Select Location")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Select Location' is clicked on
+
+2020-09-16 13:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Select Location' is clicked on
+
+2020-09-16 13:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select Location")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select Location' is clicked on
+
+2020-09-16 13:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select Location' is clicked on
+
+2020-09-16 13:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Australia")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Australia' is clicked on
+
+2020-09-16 13:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Australia' is clicked on
+
+2020-09-16 13:25:47 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress"), Add): Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1599126834904.run(Script1599126834904.groovy:117)
+	... 13 more
+)
+
+2020-09-16 13:25:48 - [MESSAGE][FAILED] - Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1599126834904.run(Script1599126834904.groovy:117)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\1600242948275.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-16 13:23:33 - [TEST_CASE][FAILED] - Test Cases/Data Driven Testing/Post a Job: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven Testing/Post a Job" time="82.852" classname="Test Cases/Data Driven Testing/Post a Job" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2afd03a2823231c3e1ac523ba9e8be47
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-16 13:25:48 - [TEST_CASE][FAILED] - Test Cases/Data Driven Testing/Post a Job: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2afd03a2823231c3e1ac523ba9e8be47
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-16 13:25:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:25:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 13:25:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:25:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:25:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:25:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:25:58 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:25:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:25:59 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:25:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:26:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:26:03 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:26:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:26:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:26:04 - [TEST_STEP][PASSED] - click(findTestObject("Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:26:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='submit'])[2]
+//button[@class='wt-loginbtn']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-16 13:26:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login'. Try using Self-healing.
+
+2020-09-16 13:26:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' was broken. Propose an alternative one: '(//button[@type='submit'])[2]'.
+
+2020-09-16 13:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:26:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:26:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:26:38 - [TEST_STEP][PASSED] - click(findTestObject("Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  American Software Contracts/span_Manage Jobs")): Object: 'Object Repository/Page_Checkout  American Software Contracts/span_Manage Jobs' is clicked on
+
+2020-09-16 13:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  American Software Contracts/span_Manage Jobs' is clicked on
+
+2020-09-16 13:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Post a job")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Post a job' is clicked on
+
+2020-09-16 13:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Post a job' is clicked on
+
+2020-09-16 13:26:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle"), Title): Text 'Architect' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle'
+
+2020-09-16 13:26:50 - [MESSAGE][PASSED] - Text 'Architect' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle'
+
+2020-09-16 13:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select project level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select project level' is clicked on
+
+2020-09-16 13:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select project level' is clicked on
+
+2020-09-16 13:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' is clicked on
+
+2020-09-16 13:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' is clicked on
+
+2020-09-16 13:26:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration' is clicked on
+
+2020-09-16 13:26:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration' is clicked on
+
+2020-09-16 13:26:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months' is clicked on
+
+2020-09-16 13:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months' is clicked on
+
+2020-09-16 13:26:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340' is clicked on
+
+2020-09-16 13:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340' is clicked on
+
+2020-09-16 13:26:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers' is clicked on
+
+2020-09-16 13:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers' is clicked on
+
+2020-09-16 13:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select english level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select english level' is clicked on
+
+2020-09-16 13:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select english level' is clicked on
+
+2020-09-16 13:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Basic")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic' is clicked on
+
+2020-09-16 13:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic' is clicked on
+
+2020-09-16 13:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Project location type")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Project location type' is clicked on
+
+2020-09-16 13:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Project location type' is clicked on
+
+2020-09-16 13:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Onsite")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Onsite' is clicked on
+
+2020-09-16 13:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Onsite' is clicked on
+
+2020-09-16 13:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default' is clicked on
+
+2020-09-16 13:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default' is clicked on
+
+2020-09-16 13:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred' is clicked on
+
+2020-09-16 13:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred' is clicked on
+
+2020-09-16 13:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date' is clicked on
+
+2020-09-16 13:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date' is clicked on
+
+2020-09-16 13:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_11")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_11' is clicked on
+
+2020-09-16 13:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_11' is clicked on
+
+2020-09-16 13:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline' is clicked on
+
+2020-09-16 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline' is clicked on
+
+2020-09-16 13:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_18")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_18' is clicked on
+
+2020-09-16 13:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_18' is clicked on
+
+2020-09-16 13:26:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:27:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:27:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project")): NOT_RUN: click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project"))
+
+2020-09-16 13:27:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project"))
+
+2020-09-16 13:27:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project")): NOT_RUN: click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project"))
+
+2020-09-16 13:27:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project"))
+
+2020-09-16 13:27:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project")): NOT_RUN: click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project"))
+
+2020-09-16 13:27:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project"))
+
+2020-09-16 13:27:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost"), Min): Text '40' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost'
+
+2020-09-16 13:27:02 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost'
+
+2020-09-16 13:27:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price"), Max): Text '70' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price'
+
+2020-09-16 13:27:03 - [MESSAGE][PASSED] - Text '70' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price'
+
+2020-09-16 13:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3' is clicked on
+
+2020-09-16 13:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3' is clicked on
+
+2020-09-16 13:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Business")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Business' is clicked on
+
+2020-09-16 13:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Business' is clicked on
+
+2020-09-16 13:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices' is clicked on
+
+2020-09-16 13:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices' is clicked on
+
+2020-09-16 13:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Afar")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Afar' is clicked on
+
+2020-09-16 13:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Afar' is clicked on
+
+2020-09-16 13:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/p")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/p' is clicked on
+
+2020-09-16 13:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/p' is clicked on
+
+2020-09-16 13:27:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/body_Test Project"), "<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>"): Text '<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/body_Test Project'
+
+2020-09-16 13:27:07 - [MESSAGE][PASSED] - Text '<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/body_Test Project'
+
+2020-09-16 13:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Android/Page_Dashboard  American Software Contracts/a_Android")): Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/a_Android' is clicked on
+
+2020-09-16 13:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/a_Android' is clicked on
+
+2020-09-16 13:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Android/Page_Dashboard  American Software Contracts/span_Android")): Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/span_Android' is clicked on
+
+2020-09-16 13:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/span_Android' is clicked on
+
+2020-09-16 13:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Android")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Android' is clicked on
+
+2020-09-16 13:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Android' is clicked on
+
+2020-09-16 13:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Select Location")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Select Location' is clicked on
+
+2020-09-16 13:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Select Location' is clicked on
+
+2020-09-16 13:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select Location")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select Location' is clicked on
+
+2020-09-16 13:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select Location' is clicked on
+
+2020-09-16 13:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Australia")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Australia' is clicked on
+
+2020-09-16 13:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Australia' is clicked on
+
+2020-09-16 13:27:10 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress"), Add): Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2afd03a2823231c3e1ac523ba9e8be47
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1599126834904.run(Script1599126834904.groovy:117)
+	... 13 more
+)
+
+2020-09-16 13:27:11 - [MESSAGE][FAILED] - Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2afd03a2823231c3e1ac523ba9e8be47
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1599126834904.run(Script1599126834904.groovy:117)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\1600243031359.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-16 13:25:48 - [TEST_CASE][FAILED] - Test Cases/Data Driven Testing/Post a Job: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'USA' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2afd03a2823231c3e1ac523ba9e8be47
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven Testing/Post a Job" time="83.149" classname="Test Cases/Data Driven Testing/Post a Job" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba53db98a5cfb06f4271223bebffe8ea
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-16 13:27:11 - [TEST_CASE][FAILED] - Test Cases/Data Driven Testing/Post a Job: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba53db98a5cfb06f4271223bebffe8ea
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-16 13:27:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:27:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-16 13:27:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:27:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:27:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:27:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:27:21 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:27:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:27:23 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:27:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:27:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:27:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:27:27 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:27:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:27:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:27:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='submit'])[2]
+//button[@class='wt-loginbtn']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-16 13:27:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login'. Try using Self-healing.
+
+2020-09-16 13:27:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' was broken. Propose an alternative one: '(//button[@type='submit'])[2]'.
+
+2020-09-16 13:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:27:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:28:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Accounts/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:28:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  American Software Contracts/span_Manage Jobs")): Object: 'Object Repository/Page_Checkout  American Software Contracts/span_Manage Jobs' is clicked on
+
+2020-09-16 13:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  American Software Contracts/span_Manage Jobs' is clicked on
+
+2020-09-16 13:28:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Post a job")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Post a job' is clicked on
+
+2020-09-16 13:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Post a job' is clicked on
+
+2020-09-16 13:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle"), Title): Text 'Business Analyst' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle'
+
+2020-09-16 13:28:13 - [MESSAGE][PASSED] - Text 'Business Analyst' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Job description_jobtitle'
+
+2020-09-16 13:28:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select project level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select project level' is clicked on
+
+2020-09-16 13:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select project level' is clicked on
+
+2020-09-16 13:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' is clicked on
+
+2020-09-16 13:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level' is clicked on
+
+2020-09-16 13:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration' is clicked on
+
+2020-09-16 13:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select job duration' is clicked on
+
+2020-09-16 13:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months' is clicked on
+
+2020-09-16 13:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_01 to 03 months' is clicked on
+
+2020-09-16 13:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340' is clicked on
+
+2020-09-16 13:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_Select freelancer typeAgency Freelancer_e62340' is clicked on
+
+2020-09-16 13:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers' is clicked on
+
+2020-09-16 13:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Agency Freelancers' is clicked on
+
+2020-09-16 13:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select english level")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select english level' is clicked on
+
+2020-09-16 13:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select english level' is clicked on
+
+2020-09-16 13:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Basic")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic' is clicked on
+
+2020-09-16 13:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Basic' is clicked on
+
+2020-09-16 13:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Project location type")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Project location type' is clicked on
+
+2020-09-16 13:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Project location type' is clicked on
+
+2020-09-16 13:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Onsite")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Onsite' is clicked on
+
+2020-09-16 13:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Onsite' is clicked on
+
+2020-09-16 13:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default' is clicked on
+
+2020-09-16 13:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Remote_chosen-search-input default' is clicked on
+
+2020-09-16 13:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred' is clicked on
+
+2020-09-16 13:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Years of Experience Preferred' is clicked on
+
+2020-09-16 13:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date' is clicked on
+
+2020-09-16 13:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobexpiry_date' is clicked on
+
+2020-09-16 13:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_11")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_11' is clicked on
+
+2020-09-16 13:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_11' is clicked on
+
+2020-09-16 13:28:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline' is clicked on
+
+2020-09-16 13:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/input_Solution Architect Experience_jobdeadline' is clicked on
+
+2020-09-16 13:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_18")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_18' is clicked on
+
+2020-09-16 13:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_18' is clicked on
+
+2020-09-16 13:28:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:28:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:28:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project")): NOT_RUN: click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project"))
+
+2020-09-16 13:28:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Dashboard  American Software Contracts/a_Fixed project"))
+
+2020-09-16 13:28:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project")): NOT_RUN: click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project"))
+
+2020-09-16 13:28:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Fixed project/Page_Dashboard  American Software Contracts/span_Fixed project"))
+
+2020-09-16 13:28:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project")): NOT_RUN: click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project"))
+
+2020-09-16 13:28:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Fixed project"))
+
+2020-09-16 13:28:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost"), Min): Text '50' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost'
+
+2020-09-16 13:28:26 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobproject_cost'
+
+2020-09-16 13:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price"), Max): Text '80' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price'
+
+2020-09-16 13:28:27 - [MESSAGE][PASSED] - Text '80' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/input_Hourly Based Project_jobmax_price'
+
+2020-09-16 13:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3' is clicked on
+
+2020-09-16 13:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/div_BusinessDigital MarketingFun  Lifestyle_7714c3' is clicked on
+
+2020-09-16 13:28:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Business")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Business' is clicked on
+
+2020-09-16 13:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Business' is clicked on
+
+2020-09-16 13:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices' is clicked on
+
+2020-09-16 13:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/ul_Languages_chosen-choices' is clicked on
+
+2020-09-16 13:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Afar")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Afar' is clicked on
+
+2020-09-16 13:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Afar' is clicked on
+
+2020-09-16 13:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/p")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/p' is clicked on
+
+2020-09-16 13:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/p' is clicked on
+
+2020-09-16 13:28:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/body_Test Project"), "<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>"): Text '<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/body_Test Project'
+
+2020-09-16 13:28:31 - [MESSAGE][PASSED] - Text '<p style="">Test Project</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>' is set on object 'Object Repository/Page_Dashboard  American Software Contracts/body_Test Project'
+
+2020-09-16 13:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Android/Page_Dashboard  American Software Contracts/a_Android")): Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/a_Android' is clicked on
+
+2020-09-16 13:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/a_Android' is clicked on
+
+2020-09-16 13:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Android/Page_Dashboard  American Software Contracts/span_Android")): Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/span_Android' is clicked on
+
+2020-09-16 13:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Android/Page_Dashboard  American Software Contracts/span_Android' is clicked on
+
+2020-09-16 13:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Android")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Android' is clicked on
+
+2020-09-16 13:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Android' is clicked on
+
+2020-09-16 13:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard  American Software Contracts/a_Select Location")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Select Location' is clicked on
+
+2020-09-16 13:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/a_Select Location' is clicked on
+
+2020-09-16 13:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/span_Select Location")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select Location' is clicked on
+
+2020-09-16 13:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/span_Select Location' is clicked on
+
+2020-09-16 13:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/li_Australia")): Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Australia' is clicked on
+
+2020-09-16 13:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard  American Software Contracts/li_Australia' is clicked on
+
+2020-09-16 13:28:34 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress"), Add): Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba53db98a5cfb06f4271223bebffe8ea
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1599126834904.run(Script1599126834904.groovy:117)
+	... 13 more
+)
+
+2020-09-16 13:28:35 - [MESSAGE][FAILED] - Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba53db98a5cfb06f4271223bebffe8ea
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1599126834904.run(Script1599126834904.groovy:117)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_132323\\Test Suite 7_ASC\\20200916_132323\\1600243114697.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-16 13:27:11 - [TEST_CASE][FAILED] - Test Cases/Data Driven Testing/Post a Job: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Germany' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba53db98a5cfb06f4271223bebffe8ea
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-16 13:23:33 - [TEST_SUITE][FAILED] - Test Suite 7_ASC: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-16 13:23:33 - [TEST_SUITE][FAILED] - Test Suite 7_ASC: Test Cases/Data Driven Testing/Post a Job FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'United  Kingdom' of object 'Object Repository/Page_Dashboard  American Software Contracts/input_United States_jobaddress'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:976)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Post a Job.run(Post a Job:117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600242803627.run(TempTestSuite1600242803627.groovy:39)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSAMARA', ip: '192.168.0.107', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Mahi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c2bca4913dbdd26915316a77a18790db
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

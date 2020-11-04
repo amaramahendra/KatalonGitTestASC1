@@ -22,73 +22,110 @@ WebUI.navigateToUrl('https://www.wp.americansoftwarecontracts.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In'))
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Packages_Employer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'), 
+WebUI.click(findTestObject('Object Repository/Employer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In'))
+
+WebUI.setText(findTestObject('Object Repository/Employer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'), 
     'mahendram15@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Packages_Employer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Employer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'), 
     'XUwhRSdIKYJlFl7OB//OUg==')
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_American Software Contracts  Marketpla_f90b1c/button_login'))
+WebUI.click(findTestObject('Object Repository/Employer/Page_American Software Contracts  Marketpla_f90b1c/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+WebUI.delay(6)
 
-WebUI.click(findTestObject('Packages_Employer/Page_Checkout  American Software Contracts/span_Dashboard'))
+WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
 
-WebUI.click(findTestObject('Packages_Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/span_Packages'))
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/span_Packages'))
+WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/span_Buy Now'))
+WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/span_Buy Now'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/a_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/a_Yes'))
+WebUI.delay(4)
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input__billing_address_1'), 
+    'Test')
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Checkout  American Software Contracts/h3_Mahendra A'))
+WebUI.setText(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input_(optional)_billing_address_2'), 
+    'Test')
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Checkout  American Software Contracts/span_Dashboard'))
+WebUI.setText(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input__billing_city'), 
+    'Test')
 
-WebUI.click(findTestObject('Packages_Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+WebUI.setText(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input__billing_postcode'), 
+    'W1A 1AA')
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/span_Packages'))
+WebUI.setText(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input__billing_phone'), 
+    '12345678')
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/span_Buy Now'))
+WebUI.setText(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input__billing_email'), 
+    'mahendram15@gmail.com')
 
-WebUI.delay(2)
+WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/a_Yes'))
+WebUI.verifyElementClickable(findTestObject('Employer/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwa_cf5a95'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Checkout  American Software Contracts/h3_Mahendra A'))
+WebUI.check(findTestObject('New CheckBox/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwamericanerpcontractscom_terms'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Checkout  American Software Contracts/span_Dashboard'))
+WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/button_Place order'))
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/span_Packages'))
+not_run: WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/span_Buy Now'))
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/a_Return to dashboard'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Dashboard  American Software Contracts/a_Yes'))
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
 
-WebUI.delay(3)
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/a_Packages'))
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Checkout  American Software Contracts/h3_Mahendra A'))
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/a_Buy Now'))
 
-WebUI.click(findTestObject('Object Repository/Packages_Employer/Page_Checkout  American Software Contracts/span_Dashboard'))
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/a_Yes'))
 
-WebUI.click(findTestObject('Packages_Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+not_run: WebUI.delay(4)
 
-WebUI.click(findTestObject('Packages_Employer/Page_Dashboard  American Software Contracts/span_Logout'))
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwa_cf5a95'))
 
-WebUI.delay(3)
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/button_Proceed to PayPal'))
 
-WebUI.closeBrowser()
+not_run: WebUI.delay(4)
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/h3_Mahendra A'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/a_Packages'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/a_Buy Now'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/a_Yes'))
+
+not_run: WebUI.delay(4)
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwa_cf5a95'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/button_Proceed to PayPal'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/h3_Mahendra A'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Checkout  American Software Contracts/a_Packages'))
+
+not_run: WebUI.delay(4)
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+
+not_run: WebUI.click(findTestObject('Object Repository/Employer/Page_Dashboard  American Software Contracts/span_Logout'))
+
+not_run: WebUI.delay(4)
+
+not_run: WebUI.closeBrowser()
 

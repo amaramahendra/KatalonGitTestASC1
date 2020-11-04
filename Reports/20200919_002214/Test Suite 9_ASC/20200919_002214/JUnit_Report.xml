@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 9_ASC" time="173.382" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite 9_ASC" tests="2" failures="0" errors="0" time="173.382" timestamp="2020-09-19 00:22:22" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 9_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200919_002214\\Test Suite 9_ASC\\20200919_002214"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200919_002214\\Test Suite 9_ASC\\20200919_002214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="643449b7be173fe9a0e526b29c0ee430"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Proposal/Freelancer - send offer" time="94.575" classname="Test Cases/Proposal/Freelancer - send offer" status="PASSED">
+         <system-out><![CDATA[2020-09-19 00:22:23 - [TEST_CASE][PASSED] - Test Cases/Proposal/Freelancer - send offer: Test Cases/Proposal/Freelancer - send offer
+
+2020-09-19 00:22:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-19 00:22:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-19 00:22:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-19 00:22:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-19 00:22:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-19 00:22:36 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-19 00:22:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-19 00:22:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-19 00:22:37 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:22:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-19 00:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-19 00:22:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "amaramahendra1989@gmail.com"): Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-19 00:22:43 - [MESSAGE][PASSED] - Text 'amaramahendra1989@gmail.com' is set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-19 00:22:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-19 00:22:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-19 00:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-19 00:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-19 00:22:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:22:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:22:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Dashboard  American Software Contracts/a_Search Employers")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/a_Search Employers' is clicked on
+
+2020-09-19 00:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/a_Search Employers' is clicked on
+
+2020-09-19 00:22:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Search Employers  American Software Contracts/a_Mahendra A")): Object: 'Object Repository/Send offer/Page_Search Employers  American Software Contracts/a_Mahendra A' is clicked on
+
+2020-09-19 00:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Search Employers  American Software Contracts/a_Mahendra A' is clicked on
+
+2020-09-19 00:23:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Mahendra A  American Software Contracts/a_View Job_1")): Object: 'Object Repository/Send offer/Page_Mahendra A  American Software Contracts/a_View Job_1' is clicked on
+
+2020-09-19 00:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Mahendra A  American Software Contracts/a_View Job_1' is clicked on
+
+2020-09-19 00:23:12 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal")): Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal' is clicked on
+
+2020-09-19 00:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal' is clicked on
+
+2020-09-19 00:23:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/input__proposed_amount"), "15"): Text '15' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/input__proposed_amount'
+
+2020-09-19 00:23:25 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/input__proposed_amount'
+
+2020-09-19 00:23:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/select_Select time period01 to 03 months03 _f937bf"), "weekly", true): All options with value 'weekly' are selected in object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/select_Select time period01 to 03 months03 _f937bf'  using regular expression
+
+2020-09-19 00:23:26 - [MESSAGE][PASSED] - All options with value 'weekly' are selected in object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/select_Select time period01 to 03 months03 _f937bf'  using regular expression
+
+2020-09-19 00:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/textarea_American Software Contracts_propos_f915c9"), "Temporary work"): Text 'Temporary work' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/textarea_American Software Contracts_propos_f915c9'
+
+2020-09-19 00:23:27 - [MESSAGE][PASSED] - Text 'Temporary work' is set on object 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/textarea_American Software Contracts_propos_f915c9'
+
+2020-09-19 00:23:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/a_Send Now")): Object: 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/a_Send Now' is clicked on
+
+2020-09-19 00:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Submit Proposal  American Software Contracts/a_Send Now' is clicked on
+
+2020-09-19 00:23:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:35 - [TEST_STEP][PASSED] - click(findTestObject("Send offer/Page_Dashboard  American Software Contracts/h3_Test T")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-19 00:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-19 00:23:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-19 00:23:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-19 00:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Test  American Software Contracts/span_Dashboard")): Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-19 00:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Test  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-19 00:23:43 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-19 00:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/h3_Test T' is clicked on
+
+2020-09-19 00:23:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Send offer/Page_Dashboard  American Software Contracts/span_Logout")): Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-19 00:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Send offer/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-19 00:23:53 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:23:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:23:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-19 00:23:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Proposal/Proposal for a job" time="78.21" classname="Test Cases/Proposal/Proposal for a job" status="PASSED">
+         <system-out><![CDATA[2020-09-19 00:23:58 - [TEST_CASE][PASSED] - Test Cases/Proposal/Proposal for a job: Test Cases/Proposal/Proposal for a job
+
+2020-09-19 00:23:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-19 00:23:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-19 00:23:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-19 00:24:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-19 00:24:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-19 00:24:08 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-19 00:24:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-19 00:24:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-19 00:24:09 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:24:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-19 00:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-19 00:24:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-19 00:24:15 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-19 00:24:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-19 00:24:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-19 00:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-19 00:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-19 00:24:16 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:24:20 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Search Freelancers")): Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Search Freelancers' is clicked on
+
+2020-09-19 00:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Search Freelancers' is clicked on
+
+2020-09-19 00:24:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:24:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Search Freelancers  American Software _f8314d/a_Mahi A")): Object: 'Object Repository/Proposal for a job/Page_Search Freelancers  American Software _f8314d/a_Mahi A' is clicked on
+
+2020-09-19 00:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Search Freelancers  American Software _f8314d/a_Mahi A' is clicked on
+
+2020-09-19 00:24:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:24:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send Offer")): Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send Offer' is clicked on
+
+2020-09-19 00:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send Offer' is clicked on
+
+2020-09-19 00:24:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86"), "1613", true): All options with value '1613' are selected in object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+
+2020-09-19 00:24:48 - [MESSAGE][PASSED] - All options with value '1613' are selected in object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/select_Select a projectTestTestTest jobTest86'  using regular expression
+
+2020-09-19 00:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/div_HiThis is Test job"), "Hi,<div><br></div><div style="">This is Test job</div>"): Text 'Hi,<div><br></div><div style="">This is Test job</div>' is set on object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/div_HiThis is Test job'
+
+2020-09-19 00:24:49 - [MESSAGE][PASSED] - Text 'Hi,<div><br></div><div style="">This is Test job</div>' is set on object 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/div_HiThis is Test job'
+
+2020-09-19 00:24:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send offer (1)")): Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send offer (1)' is clicked on
+
+2020-09-19 00:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/a_Send offer (1)' is clicked on
+
+2020-09-19 00:24:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:24:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Proposal for a job/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-19 00:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-19 00:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/span_Dashboard")): Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-19 00:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Mahi A  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-19 00:25:02 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:25:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-19 00:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-19 00:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Logout")): Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Logout' is clicked on
+
+2020-09-19 00:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Proposal for a job/Page_Dashboard  American Software Contracts/a_Logout' is clicked on
+
+2020-09-19 00:25:11 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-19 00:25:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-19 00:25:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-19 00:25:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-19 00:22:22 - [TEST_SUITE][PASSED] - Test Suite 9_ASC: Test Cases/Proposal/Proposal for a job]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

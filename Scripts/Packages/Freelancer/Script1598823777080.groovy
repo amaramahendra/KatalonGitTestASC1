@@ -22,6 +22,8 @@ WebUI.navigateToUrl('https://www.wp.americansoftwarecontracts.com/')
 
 WebUI.maximizeWindow()
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Packages_Freelancer/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Packages_Freelancer/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'), 

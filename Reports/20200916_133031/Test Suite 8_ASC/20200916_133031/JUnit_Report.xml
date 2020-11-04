@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 8_ASC" time="370.698" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite 8_ASC" tests="3" failures="0" errors="0" time="370.698" timestamp="2020-09-16 13:30:40" hostname="Mahi - MSAMARA" id="Test Suites/Test Suite 8_ASC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_133031\\Test Suite 8_ASC\\20200916_133031"/>
+         <property name="logFiles" value="C:\\Users\\Mahi\\git\\KatalonGitTestASC1\\Reports\\20200916_133031\\Test Suite 8_ASC\\20200916_133031\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mahi - MSAMARA"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.0.107"/>
+         <property name="sessionId" value="15a536ceb7b5d4a6ac13d408188186ce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Search Page/Search Projects" time="128.399" classname="Test Cases/Search Page/Search Projects" status="PASSED">
+         <system-out><![CDATA[2020-09-16 13:30:41 - [TEST_CASE][PASSED] - Test Cases/Search Page/Search Projects: Test Cases/Search Page/Search Projects
+
+2020-09-16 13:30:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:30:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:30:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:30:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:30:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:30:52 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:30:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:30:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:30:53 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2020-09-16 13:30:59 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2020-09-16 13:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:31:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:31:01 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:31:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:31:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:31:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-16 13:31:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-16 13:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects")): Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects' is clicked on
+
+2020-09-16 13:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects' is clicked on
+
+2020-09-16 13:31:14 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:31:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:31:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/input_AdvancedSearch_keyword"), "Mahendra"): Text 'Mahendra' is set on object 'Object Repository/Projects/Page_Search Projects  American Software Contracts/input_AdvancedSearch_keyword'
+
+2020-09-16 13:31:19 - [MESSAGE][PASSED] - Text 'Mahendra' is set on object 'Object Repository/Projects/Page_Search Projects  American Software Contracts/input_AdvancedSearch_keyword'
+
+2020-09-16 13:31:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/i_AdvancedSearch_fa fa-search")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:31:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:31:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:31:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:31:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects")): Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects' is clicked on
+
+2020-09-16 13:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects' is clicked on
+
+2020-09-16 13:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Job Type")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Job Type' is clicked on
+
+2020-09-16 13:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Job Type' is clicked on
+
+2020-09-16 13:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/label_Onsite")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/label_Onsite' is clicked on
+
+2020-09-16 13:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/label_Onsite' is clicked on
+
+2020-09-16 13:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project Type")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project Type' is clicked on
+
+2020-09-16 13:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project Type' is clicked on
+
+2020-09-16 13:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Hourly Based Project_ui-slider-handle _1337f6")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Hourly Based Project_ui-slider-handle _1337f6' is clicked on
+
+2020-09-16 13:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Hourly Based Project_ui-slider-handle _1337f6' is clicked on
+
+2020-09-16 13:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Hourly Based Project_ui-slider-handle _1337f6")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Hourly Based Project_ui-slider-handle _1337f6' is clicked on
+
+2020-09-16 13:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Hourly Based Project_ui-slider-handle _1337f6' is clicked on
+
+2020-09-16 13:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project TypeAllFixed projectHourly Base_975348")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project TypeAllFixed projectHourly Base_975348' is clicked on
+
+2020-09-16 13:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project TypeAllFixed projectHourly Base_975348' is clicked on
+
+2020-09-16 13:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project TypeAllFixed projectHourly Base_975348")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project TypeAllFixed projectHourly Base_975348' is clicked on
+
+2020-09-16 13:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project TypeAllFixed projectHourly Base_975348' is clicked on
+
+2020-09-16 13:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project Length")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project Length' is clicked on
+
+2020-09-16 13:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Project Length' is clicked on
+
+2020-09-16 13:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/label_01 to 03 months")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/label_01 to 03 months' is clicked on
+
+2020-09-16 13:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/label_01 to 03 months' is clicked on
+
+2020-09-16 13:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Freelancer Type( 0 selected )")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Freelancer Type( 0 selected )' is clicked on
+
+2020-09-16 13:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Freelancer Type( 0 selected )' is clicked on
+
+2020-09-16 13:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Experience")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Experience' is clicked on
+
+2020-09-16 13:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Experience' is clicked on
+
+2020-09-16 13:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Categories( 0 selected )")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Categories( 0 selected )' is clicked on
+
+2020-09-16 13:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Categories( 0 selected )' is clicked on
+
+2020-09-16 13:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Skills( 0 selected )")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Skills( 0 selected )' is clicked on
+
+2020-09-16 13:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Skills( 0 selected )' is clicked on
+
+2020-09-16 13:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_WordPress_mCSB_6_dragger_vertical")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_WordPress_mCSB_6_dragger_vertical' is clicked on
+
+2020-09-16 13:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_WordPress_mCSB_6_dragger_vertical' is clicked on
+
+2020-09-16 13:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Location( 0 selected )")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Location( 0 selected )' is clicked on
+
+2020-09-16 13:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Location( 0 selected )' is clicked on
+
+2020-09-16 13:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Languages( 0 selected )")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Languages( 0 selected )' is clicked on
+
+2020-09-16 13:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/div_Languages( 0 selected )' is clicked on
+
+2020-09-16 13:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/input_Click Apply Filter to apply latest ch_975b30")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/input_Click Apply Filter to apply latest ch_975b30' is clicked on
+
+2020-09-16 13:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/input_Click Apply Filter to apply latest ch_975b30' is clicked on
+
+2020-09-16 13:31:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:31:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:32:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:32:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects")): Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects' is clicked on
+
+2020-09-16 13:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/a_Search Projects' is clicked on
+
+2020-09-16 13:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/a_View Job")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/a_View Job' is clicked on
+
+2020-09-16 13:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/a_View Job' is clicked on
+
+2020-09-16 13:32:28 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:32:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Test job  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Projects/Page_Test job  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Test job  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard")): Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Search Projects  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:32:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:32:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Test job  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Projects/Page_Test job  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Test job  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Projects/Page_Dashboard  American Software Contracts/span_Logout")): Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Projects/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:32:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:32:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:32:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-16 13:32:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Page/Search Employers" time="85.946" classname="Test Cases/Search Page/Search Employers" status="PASSED">
+         <system-out><![CDATA[2020-09-16 13:32:49 - [TEST_CASE][PASSED] - Test Cases/Search Page/Search Employers: Test Cases/Search Page/Search Employers
+
+2020-09-16 13:32:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:32:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:32:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:32:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:32:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:33:00 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:33:00 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2020-09-16 13:33:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:33:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-16 13:33:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-16 13:33:06 - [TEST_STEP][PASSED] - click(findTestObject("search employers/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:33:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:33:08 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:33:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:33:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:33:09 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:33:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Dashboard  American Software Contracts/a_Search Employers")): Object: 'Object Repository/search employers/Page_Dashboard  American Software Contracts/a_Search Employers' is clicked on
+
+2020-09-16 13:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Dashboard  American Software Contracts/a_Search Employers' is clicked on
+
+2020-09-16 13:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/input_AdvancedSearch_keyword"), "virendra"): Text 'virendra' is set on object 'Object Repository/search employers/Page_Search Employers  American Software Contracts/input_AdvancedSearch_keyword'
+
+2020-09-16 13:33:22 - [MESSAGE][PASSED] - Text 'virendra' is set on object 'Object Repository/search employers/Page_Search Employers  American Software Contracts/input_AdvancedSearch_keyword'
+
+2020-09-16 13:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/i_AdvancedSearch_fa fa-search")): Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:33:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:33:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Open Jobs")): Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Open Jobs' is clicked on
+
+2020-09-16 13:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Open Jobs' is clicked on
+
+2020-09-16 13:33:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:33:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:33:34 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2020-09-16 13:33:37 - [MESSAGE][PASSED] - Navigate back successfully
+
+2020-09-16 13:33:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:33:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Full Profile")): Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Full Profile' is clicked on
+
+2020-09-16 13:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Full Profile' is clicked on
+
+2020-09-16 13:33:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:33:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:33:46 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2020-09-16 13:33:50 - [MESSAGE][PASSED] - Navigate back successfully
+
+2020-09-16 13:33:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:33:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:33:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Follow")): Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Follow' is clicked on
+
+2020-09-16 13:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Follow' is clicked on
+
+2020-09-16 13:33:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:33:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:33:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Dashboard")): Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Search Employers  American Software Contracts/span_Dashboard' is clicked on
+
+2020-09-16 13:34:02 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:34:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/search employers/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search employers/Page_Dashboard  American Software Contracts/span_Logout")): Object: 'Object Repository/search employers/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/search employers/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:34:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-09-16 13:34:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-16 13:34:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-16 13:34:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Page/Search Freelancers" time="155.628" classname="Test Cases/Search Page/Search Freelancers" status="PASSED">
+         <system-out><![CDATA[2020-09-16 13:34:15 - [TEST_CASE][PASSED] - Test Cases/Search Page/Search Freelancers: Test Cases/Search Page/Search Freelancers
+
+2020-09-16 13:34:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-16 13:34:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-16 13:34:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-16 13:34:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-16 13:34:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wp.americansoftwarecontracts.com/"): Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:34:23 - [MESSAGE][PASSED] - Navigate to 'https://www.wp.americansoftwarecontracts.com/' successfully
+
+2020-09-16 13:34:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-16 13:34:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-16 13:34:25 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:34:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In")): Object: 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In' is clicked on
+
+2020-09-16 13:34:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username"), "mahendram15@gmail.com"): Text 'mahendram15@gmail.com' is set on object 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:34:30 - [MESSAGE][PASSED] - Text 'mahendram15@gmail.com' is set on object 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_username'
+
+2020-09-16 13:34:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password"), "XUwhRSdIKYJlFl7OB//OUg=="): Text ****** has been set on object 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:34:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/input_Login_password'
+
+2020-09-16 13:34:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/button_login")): Object: 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_American Software Contracts  Marketpla_f90b1c/button_login' is clicked on
+
+2020-09-16 13:34:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:34:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/a_Search Freelancers")): Object: 'Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/a_Search Freelancers' is clicked on
+
+2020-09-16 13:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/a_Search Freelancers' is clicked on
+
+2020-09-16 13:34:48 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:34:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By A-Z")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By A-Z' is clicked on
+
+2020-09-16 13:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By A-Z' is clicked on
+
+2020-09-16 13:34:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:35:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Z-A")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Z-A' is clicked on
+
+2020-09-16 13:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Z-A' is clicked on
+
+2020-09-16 13:35:28 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:35:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Rating DESC")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Rating DESC' is clicked on
+
+2020-09-16 13:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Rating DESC' is clicked on
+
+2020-09-16 13:35:37 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:35:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Rating ASC")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Rating ASC' is clicked on
+
+2020-09-16 13:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_Sort By Rating ASC' is clicked on
+
+2020-09-16 13:35:45 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:35:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/span_Clear Sorting")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/span_Clear Sorting' is clicked on
+
+2020-09-16 13:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/span_Clear Sorting' is clicked on
+
+2020-09-16 13:35:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:35:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword' is clicked on
+
+2020-09-16 13:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword' is clicked on
+
+2020-09-16 13:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword"), "Igor"): Text 'Igor' is set on object 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword'
+
+2020-09-16 13:35:59 - [MESSAGE][PASSED] - Text 'Igor' is set on object 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword'
+
+2020-09-16 13:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/i_AdvancedSearch_fa fa-search")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:36:03 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:36:07 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword' is clicked on
+
+2020-09-16 13:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword' is clicked on
+
+2020-09-16 13:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword"), ""): Text '' is set on object 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword'
+
+2020-09-16 13:36:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_AdvancedSearch_keyword'
+
+2020-09-16 13:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/i_AdvancedSearch_fa fa-search")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/i_AdvancedSearch_fa fa-search' is clicked on
+
+2020-09-16 13:36:15 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:36:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:36:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Hourly Rate                           5_c012a1")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Hourly Rate                           5_c012a1' is clicked on
+
+2020-09-16 13:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Hourly Rate                           5_c012a1' is clicked on
+
+2020-09-16 13:36:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Freelancer type( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Freelancer type( 0 selected )' is clicked on
+
+2020-09-16 13:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Freelancer type( 0 selected )' is clicked on
+
+2020-09-16 13:36:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Hourly Rate")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Hourly Rate' is clicked on
+
+2020-09-16 13:36:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Hourly Rate' is clicked on
+
+2020-09-16 13:36:20 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_5 - 10")): NOT_RUN: click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_5 - 10"))
+
+2020-09-16 13:36:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/label_5 - 10"))
+
+2020-09-16 13:36:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Industrial experiences( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Industrial experiences( 0 selected )' is clicked on
+
+2020-09-16 13:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Industrial experiences( 0 selected )' is clicked on
+
+2020-09-16 13:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Specialization( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Specialization( 0 selected )' is clicked on
+
+2020-09-16 13:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Specialization( 0 selected )' is clicked on
+
+2020-09-16 13:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Skills( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Skills( 0 selected )' is clicked on
+
+2020-09-16 13:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Skills( 0 selected )' is clicked on
+
+2020-09-16 13:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_English Level( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_English Level( 0 selected )' is clicked on
+
+2020-09-16 13:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_English Level( 0 selected )' is clicked on
+
+2020-09-16 13:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Location( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Location( 0 selected )' is clicked on
+
+2020-09-16 13:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Location( 0 selected )' is clicked on
+
+2020-09-16 13:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Languages( 0 selected )")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Languages( 0 selected )' is clicked on
+
+2020-09-16 13:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/div_Languages( 0 selected )' is clicked on
+
+2020-09-16 13:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_Click Apply Filter to apply latest ch_975b30")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_Click Apply Filter to apply latest ch_975b30' is clicked on
+
+2020-09-16 13:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/input_Click Apply Filter to apply latest ch_975b30' is clicked on
+
+2020-09-16 13:36:24 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:36:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/h3_Mahendra A")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/h3_Mahendra A' is clicked on
+
+2020-09-16 13:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/h3_Mahendra A' is clicked on
+
+2020-09-16 13:36:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/span_Dashboard")): Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/span_Dashboard' is clicked on
+
+2020-09-16 13:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Search Freelancers  American Software _f8314d/span_Dashboard' is clicked on
+
+2020-09-16 13:36:35 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:36:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/h3_Mahendra A")): Object: 'Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/h3_Mahendra A' is clicked on
+
+2020-09-16 13:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/span_Logout")): Object: 'Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Freelancers/Page_Dashboard  American Software Contracts/span_Logout' is clicked on
+
+2020-09-16 13:36:45 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-09-16 13:36:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-09-16 13:36:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-16 13:36:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-16 13:30:40 - [TEST_SUITE][PASSED] - Test Suite 8_ASC: Test Cases/Search Page/Search Freelancers]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

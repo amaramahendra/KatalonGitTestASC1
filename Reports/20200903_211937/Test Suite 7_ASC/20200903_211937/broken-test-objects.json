@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[2]\n//button[@class\u003d\u0027wt-loginbtn\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027submit\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200903_211937/Test Suite 7_ASC/20200903_211937/Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login_attributes.png"
+    }
+  ]
+}

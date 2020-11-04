@@ -18,11 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.wp.americansoftwarecontracts.com/')
+WebUI.navigateToUrl('wp.americansoftwarecontracts.com')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/a_Sign In'))
 
@@ -34,7 +34,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Sign In_ASC/Page_Americ
 
 WebUI.click(findTestObject('Object Repository/Sign In_ASC/Page_American Software Contracts  Marketpla_f90b1c/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Sign In_ASC/Page_Dashboard  American Software Contracts/h3_Mahendra A'))
+WebUI.delay(6)
+
+WebUI.click(findTestObject('Employer/Page_Checkout  American Software Contracts/h3_Mahendra A'))
 
 WebUI.delay(4)
 

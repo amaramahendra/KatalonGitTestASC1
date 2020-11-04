@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_Loading_svg-icon03</name>
+   <tag></tag>
+   <elementGuidId>2b02dda6-2250-4256-8883-1c9794b74b6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>path.svg-icon03</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-icon03</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M13.27 13h21.42a2.28 2.28 0 0 1 2.35 2.43 2.4 2.4 0 0 1-2.36 2.6H13.34a2.4 2.4 0 0 1-2.36-2.6A2.2 2.2 0 0 1 13.26 13zm0 8.98h21.42a2.3 2.3 0 0 1 2.32 2.5 2.3 2.3 0 0 1-2.33 2.5H13.34a2.4 2.4 0 0 1-2.36-2.6 2.18 2.18 0 0 1 2.27-2.4zm0 9h21.42a2.3 2.3 0 0 1 2.38 2.44 2.43 2.43 0 0 1-2.4 2.6H13.36a2.4 2.4 0 0 1-2.36-2.6 2.2 2.2 0 0 1 2.27-2.44z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pt1:_UISmmLink::icon&quot;)/g[3]/path[@class=&quot;svg-icon03&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

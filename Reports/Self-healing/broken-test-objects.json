@@ -39,6 +39,106 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Join Now_ASC/Page_American Software Contracts  Marketpla_f90b1c/label_Agree our terms and conditionsTerms  _93b612_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard  American Software Contracts/a_Buy Now",
+      "brokenLocator": "//main[@id\u003d\u0027wt-main\u0027]/section/div/div/div/form/div/div[2]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Job description\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard  American Software Contracts/a_Buy Now_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Address Fields/Page_Checkout  American Software Contracts/li_United Kingdom (UK)",
+      "brokenLocator": "//li[@id\u003d\u0027select2-billing_country-result-0eak-GB\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027select2-billing_country-results\u0027]/li",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Address Fields/Page_Checkout  American Software Contracts/li_United Kingdom (UK)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Address Fields/Page_Checkout  American Software Contracts/input__select2-search__field",
+      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[14]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Address Fields/Page_Checkout  American Software Contracts/input__select2-search__field_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Address Fields/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwamericanerpcontractscom_terms",
+      "brokenLocator": "//input[@id\u003d\u0027terms\u0027]\n//input[@class\u003d\u0027woocommerce-form__input woocommerce-form__input-checkbox input-checkbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027terms\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Address Fields/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwamericanerpcontractscom_terms_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/xpath/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwamericanerpcontractscom_terms",
+      "brokenLocator": "//input[@id\u003d\u0027terms\u0027]\n//input[@class\u003d\u0027woocommerce-form__input woocommerce-form__input-checkbox input-checkbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027terms\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/xpath/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwamericanerpcontractscom_terms_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard  American Software Contracts/button_OK",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Do you own this website?\u0027])[2]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard  American Software Contracts/button_OK_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[2]\n//button[@class\u003d\u0027wt-loginbtn\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027submit\u0027])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Accounts/Page_American Software Contracts  Marketpla_f90b1c/button_login_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal",
+      "brokenLocator": "//div[@id\u003d\u0027wt-twocolumns\u0027]/div/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Expired\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Send offer/Page_Test  American Software Contracts/a_Send Proposal_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Employer/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwa_cf5a95",
+      "brokenLocator": "//input[@id\u003d\u0027terms\u0027]\n//input[@class\u003d\u0027woocommerce-form__input woocommerce-form__input-checkbox input-checkbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027terms\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Employer/Page_Checkout  American Software Contracts/input_wwwamericansoftwarecontractscom  wwwa_cf5a95_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level",
+      "brokenLocator": "//main[@id\u003d\u0027wt-main\u0027]/section/div/div/div/form/div/div[2]/div/div[2]/fieldset/div[2]/span/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select project level\u0027])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard  American Software Contracts/li_Basic Level_neighbor.png"
     }
   ]
 }
